@@ -1,0 +1,9 @@
+body {
+    background-color: lime;
+}
+
+.plannt {
+    left: 200px;
+    top: 500px;
+    position: absolute;
+}
