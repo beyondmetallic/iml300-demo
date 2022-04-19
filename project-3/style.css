@@ -1,9 +1,9 @@
 body {
-    background-color: lime;
+    background-color: orangered;
+    font-family: sans-serif;
+    font-size:10px;
+    padding:100px;
+    text-align: right;
+    
 }
 
-.plannt {
-    left: 200px;
-    top: 500px;
-    position: absolute;
-}
