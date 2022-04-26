@@ -1,3 +1,18 @@
+a {
+  text-decoration: none;
+  color:antiquewhite;
+
+}
+
+a:hover {
+  color: orangered;
+    transition: all .9s ease;
+-webkit-transition: all .9s ease;
+
+  }
+
+
+
 body {
     background-color: orangered;
     font-family: sans-serif;
@@ -5,5 +20,304 @@ body {
     padding:100px;
     text-align: right;
     
+}
+
+.page-1{
+    font-family:Michroma;
+    font-size: 10px;
+    color:antiquewhite;
+    letter-spacing: -1px;
+    text-align: center;
+     -webkit-animation: bgcolor 20s infinite;
+    animation: bgcolor 10s infinite;
+    -webkit-animation-direction: alternate;
+    animation-direction: alternate;
+    line-height: 2;
+    position:absolute;
+    top:15%;
+}
+
+@keyframes bgcolor {
+    0% {
+        background-color: deeppink;
+    }
+
+    30% {
+        background-color: yellow;
+    }
+
+    60% {
+        background-color: rosybrown;
+    }
+
+    90% {
+        background-color: palevioletred;
+    }
+
+    100% {
+        background-color: lightgray;
+    }
+}
+
+.page-2{
+    font-family:Goldman;
+    font-size:10px;
+    background-color: darkblue;
+    text-align:center;
+    background ;
+    line-height:2;
+    position:absolute;
+    color:red;
+    text-shadow: -150px 15px #fff;
+    top: 15%;
+    margin-left:65%;
+    max-width:20%;
+}
+
+
+.one{
+   background-color:darkgray;
+   font-family:Share Tech Mono;
+    font-size:10px;
+    letter-spacing:1px;
+    text-align:center;
+    padding:10px;
+    border-radius: 100px;
+    box-shadow: 10px 10px yellow;
+}
+
+.page-3{
+    font-family:Share Tech Mono;
+    background:linear-gradient(90deg, #000, #fff, #ddd, deeppink);
+    color:antiquewhite;
+    
+    
+}
+
+.parent {
+  position: relative;
+  top: 0;
+  left: 0;
+}
+
+
+
+.forrest{
+    position: fixed;
+    left: 8%;
+    top:40%;
+    height: 30%;
+    width 30%;
+    opacity:0.8;
+    border: 3px solid #000;
+}
+
+.glacier{
+    position:fixed;
+    left:39%;
+    top:40%;
+    height:30%;
+    width:23%;
+    opacity:0.8;
+    border: 3px solid #000;
+}
+
+.desert{
+    position:fixed;
+    left:69%;
+    top:40%;
+    height:30%;
+    width:23%;
+    opacity:0.8;
+    border: 3px solid #000;
+    
+}
+
+.page-4{
+   background: url("asset/forrest.jpg");
+  background-size:cover;
+  background-repeat:no-repeat;
+    
+}
+
+.blakke{
+    position:fixed;
+    left:35%;
+    top:50%;
+    height:40%;
+    width:25%;
+    opacity:0.8;
+    border: 3px solid #000;
+    
+}
+
+.page-5{
+    background : url("asset/park.jpg");
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+
+.two{
+   background-color:darkgray;
+   font-family:times;
+    font-size:10px;
+    letter-spacing:1px;
+    text-align:center;
+    padding:10px;
+    border-radius: 0px;
+    box-shadow: 10px 10px yellow;
+    margin-top:9%;
+    width: 40%;
+}
+
+.three{
+   background-color:darkgray;
+   font-family:times;
+    font-size:10px;
+    letter-spacing:1px;
+    text-align:center;
+    padding:10px;
+    border-radius: 0px;
+    box-shadow: 10px 10px yellow;
+    margin-top:10%;
+    margin-left:70%;
+    width:20%;
+}
+
+.whale{
+    position:fixed;
+    left:46%;
+    top:20%;
+    height:40%;
+    width:25%;
+    opacity:0.8;
+    border: 3px solid #000;
+    
+}
+
+.ivraq{
+    position:fixed;
+    left:48%;
+    top:17%;
+    height:30%;
+    width:27%;
+    opacity:0.8;
+    border: 3px solid deeppink;
+    
+}
+
+.navy{
+    position:fixed;
+    left:35%;
+    top:55%;
+    height:30%;
+    width:27%;
+    opacity:0.8;
+    border: 3px solid yellow;
+    
+}
+
+.four{
+   background-color:black;
+   font-family:Share Tech Mono;
+    font-size:10px;
+    color:antiquewhite;
+    letter-spacing:1px;
+    text-align:center;
+    padding:10px;
+    border-radius: 0px;
+    box-shadow: 10px 10px deeppink;
+    margin-top:-20%;
+    margin-left:70%;
+    width:20%;
+}
+
+.five{
+    font-family:Share Tech Mono;
+    font-size:10px;
+    text-align:left;
+    width: 20%;
+    margin-left:11%;
+    color:deeppink;
+    margin-top:8%;
+    border: 3px solid black;
+    padding:20px;
+    text-shadow: 2px 1px #000;
+}
+
+.page-6{
+    background : url("asset/aleppo.jpg");
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+
+.six{
+    font-family:times;
+    background:linear-gradient(90deg, #aaa,#ddd,#000);
+    font-size:10px;
+    text-align:left;
+    width: 20%;
+    margin-left:21%;
+    color:deeppink;
+    margin-top:5%;
+    border: 3px solid black;
+    box-shadow:8px 10px orangered;
+    padding:20px;
+}
+
+
+.seven{
+   background:linear-gradient(90deg,deeppink,orangered,crimson);
+   font-family:times;
+    font-size:10px;
+    letter-spacing:1px;
+    text-align:center;
+    padding:10px;
+    border-radius: 0px;
+    box-shadow: 10px 10px yellow;
+    margin-top:3%;
+    margin-left:8%;
+    width:20%;
+}
+
+.eight{
+    background:black;
+    color:ghostwhite;
+    font-family:times;
+    font-size:10px;
+    letter-spacing:1px;
+    text-align:center;
+    border-radius: 0px;
+/*    box-shadow: 10px 10px yellow;*/
+    margin-top:-26%;
+    margin-left:50%;
+    width:20%;
+}
+
+.nine{
+    background:blue;
+    color:ghostwhite;
+    font-family:share tech mono;
+    font-size:10px;
+    letter-spacing:1px;
+    text-align:center;
+    border-radius: 0px;
+/*    box-shadow: 10px 10px yellow;*/
+    margin-top:-16.5%;
+    margin-left:50%;
+    width:20%;
+}
+
+
+.ten{
+    background:red;
+    color:ghostwhite;
+    font-family:share tech mono;
+    font-size:10px;
+    letter-spacing:1px;
+    text-align:center;
+    margin-top:-20%;
+    margin-left:50%;
+    width:20%;
 }
 
