@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+  <!--====== Design by foolishdeveloper.com =====-->
+  
+  
+    <title>about this site</title>
+    <!--Google Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+<link href="https://fonts.googleapis.com/css2?family=Goldman&family=Share+Tech+Mono&display=swap" rel="stylesheet">
+    <!--Stylesheets-->
+    <style media="screen">
+      *,
+*:before,
+*:after{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+}
+.popup{
+    background-color: red;
+    width: 420px;
+    padding: 30px 40px;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    left: 50%;
+    top: 50%;
+    font-family: share tech mono;
+    display: none; 
+    text-align: center;
+}
+.popup button{
+    display: block;
+    margin:  0 0 20px auto;
+    background-color: transparent;
+    font-size: 30px;
+    color: black;
+    background: white;
+    width: 40px;
+    height: 40px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+.popup h2{
+  margin-top: -20px;
+}
+.popup p{
+    font-size: 14px;
+    text-align: justify;
+    margin: 20px 0;
+    line-height: 25px;
+}
+a{
+    display: block;
+    width: 150px;
+    position: relative;
+    margin: 10px auto;
+    text-align: center;
+    background-color: black;
+    color: #ffffff;
+    text-decoration: italic;
+    padding: 8px 0;
+}
+    </style>
+</head>
+<body>
+    <div class="popup">
+        <button id="close">&times;</button>
+        <h2>about this site</h2>
+        <p>
+            this site is a project by john miranda to expose and explore briefly but powerfully the heaviness and brutalities of war's contribution to environmental destruction. militaries have long used their power and hierachical advantage to intimidate, demean, and invade. however, as the climate begins to change laregely as a result of their mess, we must throw the bombs back. click the words on the first page you were just on, and be taken through some decision making and excruciating realities.
+        </p>
+        <a href="indexl.html">go back</a>
+    </div>
+    <!--Script-->
+    <script type="text/javascript">
+window.addEventListener("load", function(){
+    setTimeout(
+        function open(event){
+            document.querySelector(".popup").style.display = "block";
+        },
+        2000 
+    )
+});
+
+
+document.querySelector("#close").addEventListener("click", function(){
+    document.querySelector(".popup").style.display = "none";
+});
+    </script>
+</body>
+</html>
