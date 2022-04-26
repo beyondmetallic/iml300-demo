@@ -195,6 +195,17 @@ body {
     
 }
 
+.blood{
+    position:fixed;
+    left:29%;
+    top:53%;
+    height:30%;
+    width:15%;
+    opacity:0.8;
+    border: 3px solid #000;
+    
+}
+
 .ivraq{
     position:fixed;
     left:48%;
@@ -303,7 +314,7 @@ body {
     text-align:center;
     border-radius: 0px;
 /*    box-shadow: 10px 10px yellow;*/
-    margin-top:-16.5%;
+    margin-top:-14%;
     margin-left:50%;
     width:20%;
 }
@@ -345,10 +356,11 @@ body {
 }
 
 .page-8{
-    background:ghostwhite;
-    font-family:share tech mono;
-    font-size:12px;
+    background:linear-gradient(90deg, navajowhite,ghostwhite,chartreuse,rosybrown);;
+    font-family:michroma;
+    font-size:9px;
     text-align:right;
+    text-transform:uppercase;
     width:50%;
     margin-left:40%;
     line-height: 1.6;
